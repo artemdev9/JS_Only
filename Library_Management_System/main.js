@@ -17,14 +17,8 @@ class Media {
     return this._ratings;
   }
 
-  set isCheckedOut(newIsCheckedOut) {
-    this._isCheckedOut = newIsCheckedOut;
-  }
-
   toggleCheckOutStatus() {
-    this._isCheckedOut
-      ? (this._isCheckedOut = false)
-      : (this._isCheckedOut = true);
+    this._isCheckedOut = !this._isCheckedOut;
   }
 
   getAverageRating() {
@@ -87,7 +81,6 @@ historyOfEverything.addRating(5);
 console.log(historyOfEverything.getAverageRating());
 
 const speed = new Movie("Speed", "Jan de Bont", 116);
-speed.toggleCheckOutStatus();
 console.log(speed.isCheckedOut);
 speed.addRating(1);
 speed.addRating(1);
