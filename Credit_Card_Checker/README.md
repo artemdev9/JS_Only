@@ -2,7 +2,7 @@
 
 This JavaScript code is a credit card validator that uses the Luhn algorithm to determine the validity of credit card numbers. It can also identify the companies that have produced invalid cards.
 
-## Usage
+## Code Components
 
 1. **Data**: The code includes sample credit card numbers categorized as valid, invalid, or cards of unknown status. These arrays serve as the input data.
 
@@ -21,7 +21,7 @@ This JavaScript code is a credit card validator that uses the Luhn algorithm to 
 - This function takes an array of invalid credit card numbers and determines the companies that produced them based on the first digit of each card number.
 - It returns an array of unique company names for the invalid cards.
 
-5. **Running the Program:**
+## Usage
 
 - The code runs the findInvalidCards() then the idInvalidCardCompanies() functions on the batch array to find and list the companies that have produced invalid cards.
 - The results are logged to the console.
