@@ -36,4 +36,4 @@ This JavaScript code simulates the creation and analysis of DNA sequences using 
 ## Note
 
 - This code is a simplified simulation and does not represent real DNA analysis.
-- It is designed for educational and portfolio purposes to demonstrate JavaScript methods and arrays in action.
+- It is designed for educational and portfolio purposes to demonstrate JavaScript methods, objects and factory functions in action.
