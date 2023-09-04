@@ -33,10 +33,7 @@ This JavaScript project demonstrates the use of classes and methods to create a 
 You can use this code to create and manage a media library that includes both books and movies. Here's how to use the main features:
 
 - Create instances of books and movies using the Book and Movie class constructors, respectively.
-- Access and modify media properties using getters and setters.
-- Use the toggleCheckOutStatus() method to check in/out a media item.
-- Add ratings to media items using the addRating(newRating) method.
-- Calculate the average rating of a media item using the getAverageRating() method.
+- Access and modify media properties using getters and setters. Use the toggleCheckOutStatus() method to check in/out a media item. Add ratings to media items using the addRating(newRating) method. Calculate the average rating of a media item using the getAverageRating() method.
 
 ## Note
 
